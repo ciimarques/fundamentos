@@ -20,4 +20,7 @@ public class Residente {
         System.out.println("Peso: " + this.peso);
         System.out.println("Altura: " + this.altura);
     }
+    public double calculaImc() {
+        return this.peso / (this.altura * this.altura);
+    }
 }
